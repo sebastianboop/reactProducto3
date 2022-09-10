@@ -1,13 +1,19 @@
+//importar lo que se necesita para hacer uso de las cosas ya sea boostrap 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+//es para importar donde estan los archivos
+/* import Productos from './producto';
+ */
+import ListaTareas from './ListarTareas';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ListaTareas />
   </React.StrictMode>
 );
 
